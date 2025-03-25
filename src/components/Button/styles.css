@@ -1,0 +1,16 @@
+.btn {
+  width: 50%;
+  background: darkblue;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:disabled {
+  background: #eee;
+  color: #ccc;
+  cursor: not-allowed;
+}
