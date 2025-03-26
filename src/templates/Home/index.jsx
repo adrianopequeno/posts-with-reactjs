@@ -10,7 +10,7 @@ export class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Adriano",
+      name: "Posts",
       posts: [],
       allPosts: [],
       page: 0,
